@@ -25,7 +25,7 @@ class DashboardController extends Controller
 
         $countData = [
             'user' => User::count(),
-            'enabledWebhook' => Webhook::enable()->count(),
+            'enabsdsledWebhook' => Webhook::enable()->count(),
             'disabledWebhook' => Webhook::disable()->count(),
             'bot' => Bot::count(),
         ];
